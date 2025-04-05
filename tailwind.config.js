@@ -2,9 +2,21 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{html,js}"],
+    "./src/**/*.{html,js,jsx,ts,tsx}",
+  ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'Poppins': ['Poppins', 'sans-serif'],
+        
+      },
+      maxWidth:{
+        'customContainer':'1170px'
+      }
+     
+      
+  
+    },
   },
   plugins: [],
 }
